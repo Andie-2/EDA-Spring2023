@@ -27,10 +27,10 @@ Litter <- read.csv(here("Data/Processed_KEY/NEON_NIWO_Litter_mass_trap_Processed
 Litter$collectDate <- as.Date(Litter$collectDate , format = "%Y-%m-%d")
 
 # Set theme
-mytheme <- theme_classic(base_size = 14) +
+mytheme1 <- theme_classic(base_size = 14) +
   theme(axis.text = element_text(color = "black"), 
         legend.position = "top")
-theme_set(mytheme)
+theme_set(mytheme1)
 ```
 
 ### One-way ANOVA
