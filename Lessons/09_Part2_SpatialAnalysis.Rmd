@@ -49,6 +49,8 @@ library(lubridate)
 library(sf)
 library(mapview); mapviewOptions(fgb = FALSE)
 library(RColorBrewer)
+
+
 ```
 
 # 2 READING IN SPATIAL DATA
@@ -141,7 +143,7 @@ head(huc8_sf)
 
 ```{r Select the Upper Neuse HUC 8}
 #Read the shapefile into an sf dataframe
-
+Upper_Neuse <- as.data.frame()
 
 
 #Create a map
